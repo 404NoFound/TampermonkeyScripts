@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/404NoFound/TampermonkeyScripts/issues"
   },
-  "homepage": "https://github.com/404NoFound/TampermonkeyScripts#readme"
+  "homepage": "https://github.com/404NoFound/TampermonkeyScripts#readme",
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
 }

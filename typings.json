@@ -2,6 +2,8 @@
   "name": "tampermonkey_scripts",
   "dependencies": {},
   "globalDependencies": {
-    "jquery": "registry:dt/jquery#1.10.0+20160417213236"
+    "jquery": "registry:dt/jquery#1.10.0+20160417213236",
+    "lodash": "registry:dt/lodash#3.10.0+20160330154726",
+    "node": "registry:dt/node#6.0.0+20160523035754"
   }
 }
