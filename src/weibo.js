@@ -14,7 +14,9 @@
     // Your code here...
     var appendBtn=function(){
         var saveToWiz=function(){
-            $("textarea.W_input").value="@保存到为知笔记";
+            var text="@保存到为知笔记 "+new Date().getTime();
+            console.log(text);
+            $("textarea.W_input").value=text;
             $("a.W_btn_a").click();
         };
         var newBtnA=document.createElement("a");
@@ -22,7 +24,7 @@
         //newBtnA.setAttribute("href","void()");
         newBtnA.setAttribute("id","btnSaveToWiz");
         //newBtnA.setAttribute("onclick","saveToWiz()");
-        newBtnA.setAttribute("onclick",'  document.querySelector("textarea.W_input").value="@保存到为知笔记"; document.querySelector("a.W_btn_a").click();');
+        newBtnA.setAttribute("onclick",'  document.querySelector("textarea.W_input").value="@保存到为知笔记 '+'new Date().getTime();  '+' "; document.querySelector("a.W_btn_a").click();');
         newBtnA.appendChild((document.createTextNode("保存到为知笔记")));
 
         var commentButton=document.querySelector(".btn.W_fr");
