@@ -63,7 +63,7 @@
     $.each(tagList, function (index, value) {
         tags += value.textContent + " ";
     });
-    originTitle.replace(code, "");
+    originTitle = originTitle.replace(code, "");
     var newTitle = "(" + publisher + ")(" + code + ")" + originTitle + "_" + avatarsStr + "_" + series + "_" + publishTime + "_" + length + "_" + tags;
 
     var newTitleDiv = $("<div>");
